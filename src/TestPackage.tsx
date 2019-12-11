@@ -1,5 +1,10 @@
 import * as React from 'react';
-import { TestPackageProps } from '../index';
+
+export interface TestPackageProps {
+    className: string;
+    children: React.ReactNode;
+    onClick?: (e: any) => void;
+}
 
 
 export const TestPackage: React.FC<TestPackageProps> = ({ className, children, onClick }) => {
