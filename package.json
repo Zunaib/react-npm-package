@@ -1,6 +1,6 @@
 {
   "name": "@zunaib.imtiaz/react-npm-package",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Nice Test NPM Package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
